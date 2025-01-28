@@ -26,9 +26,36 @@ class Program
         #region Modeli Eğit
         // Modeli eğitme
         var model = pipeline.Fit(trainingData);
+        #endregion
 
+        #region Tahmin Yap
+        //Test data 
+        var testData = new List<Data>()
+        {
+            new Data()
+            {
+                Name = "Nursel",
+                Age = 30,
+                MembershipDuration = 11,
+                PreviouslyQuit = 0,
+                PTUsage = 1,
+                WeeklyVisits = 4
+            },
+             new Data()
+            {
+                Name = "Ayşe",
+                Age = 28,
+                MembershipDuration = 3,
+                PreviouslyQuit = 1,
+                PTUsage = 0,
+                WeeklyVisits = 2
+            },
+
+        };
+        // Test verisini IDataView'e dönüştürme
+        var testDataView = mlContext.Data.LoadFromEnumerable(testData);
         // Yeni verilerle tahmin yapmak için model kullanma
-        var prediction = model.Transform(trainingData);
+        var prediction = model.Transform(testDataView);
         var predictions = mlContext.Data.CreateEnumerable<PredictionResult>(prediction, reuseRowObject: false).ToList();
         #endregion
 

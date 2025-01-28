@@ -1,14 +1,5 @@
 [
   {
-    "Name": "Nursel",
-    "Age": 30,
-    "MembershipDuration": 11,
-    "WeeklyVisits": 4,
-    "PTUsage": 1,
-    "PreviouslyQuit": 0,
-    "IsContinuing": 1
-  },
-  {
     "Name": "Ali",
     "Age": 28,
     "MembershipDuration": 9,
