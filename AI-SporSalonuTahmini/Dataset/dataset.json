@@ -15,7 +15,7 @@
     "WeeklyVisits": 3,
     "PTUsage": 1,
     "PreviouslyQuit": 1,
-    "IsContinuing": 0
+    "IsContinuing": 1
   },
   {
     "Name": "Ahmet",
@@ -42,7 +42,7 @@
     "WeeklyVisits": 4,
     "PTUsage": 1,
     "PreviouslyQuit": 0,
-    "IsContinuing": 0
+    "IsContinuing": 1
   },
   {
     "Name": "Selim",
@@ -51,7 +51,7 @@
     "WeeklyVisits": 4,
     "PTUsage": 1,
     "PreviouslyQuit": 0,
-    "IsContinuing": 1
+    "IsContinuing": 0
   },
   {
     "Name": "Su",
@@ -94,6 +94,42 @@
     "Age": 26,
     "MembershipDuration": 7,
     "WeeklyVisits": 6,
+    "PTUsage": 1,
+    "PreviouslyQuit": 0,
+    "IsContinuing": 1
+  },
+  {
+    "Name": "Deniz",
+    "Age": 24,
+    "MembershipDuration": 6,
+    "WeeklyVisits": 3,
+    "PTUsage": 0,
+    "PreviouslyQuit": 1,
+    "IsContinuing": 0
+  },
+  {
+    "Name": "Gizem",
+    "Age": 30,
+    "MembershipDuration": 12,
+    "WeeklyVisits": 6,
+    "PTUsage": 1,
+    "PreviouslyQuit": 0,
+    "IsContinuing": 1
+  },
+  {
+    "Name": "Kerem",
+    "Age": 29,
+    "MembershipDuration": 9,
+    "WeeklyVisits": 4,
+    "PTUsage": 0,
+    "PreviouslyQuit": 1,
+    "IsContinuing": 0
+  },
+  {
+    "Name": "Büşra",
+    "Age": 21,
+    "MembershipDuration": 4,
+    "WeeklyVisits": 5,
     "PTUsage": 1,
     "PreviouslyQuit": 0,
     "IsContinuing": 1

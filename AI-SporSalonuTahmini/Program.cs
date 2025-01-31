@@ -30,28 +30,9 @@ class Program
 
         #region Tahmin Yap
         //Test data 
-        var testData = new List<Data>()
-        {
-            new Data()
-            {
-                Name = "Nursel",
-                Age = 30,
-                MembershipDuration = 11,
-                PreviouslyQuit = 0,
-                PTUsage = 1,
-                WeeklyVisits = 4
-            },
-             new Data()
-            {
-                Name = "Ayşe",
-                Age = 28,
-                MembershipDuration = 3,
-                PreviouslyQuit = 1,
-                PTUsage = 0,
-                WeeklyVisits = 2
-            },
+        var testFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "testdata.json");
+        var testData = JsonConvert.DeserializeObject<List<Data>>(File.ReadAllText(testFilePath));
 
-        };
         // Test verisini IDataView'e dönüştürme
         var testDataView = mlContext.Data.LoadFromEnumerable(testData);
         // Yeni verilerle tahmin yapmak için model kullanma
