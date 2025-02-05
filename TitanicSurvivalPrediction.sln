@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI-SporSalonuTahmini", "AI-SporSalonuTahmini.csproj", "{1AED14D9-8CAA-4C53-9FE1-D68918FF2981}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitanicSurvivalPrediction", "TitanicSurvivalPrediction.csproj", "{3968A283-5E30-4B2F-9003-3A72BB15B736}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1AED14D9-8CAA-4C53-9FE1-D68918FF2981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1AED14D9-8CAA-4C53-9FE1-D68918FF2981}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1AED14D9-8CAA-4C53-9FE1-D68918FF2981}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1AED14D9-8CAA-4C53-9FE1-D68918FF2981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3968A283-5E30-4B2F-9003-3A72BB15B736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3968A283-5E30-4B2F-9003-3A72BB15B736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3968A283-5E30-4B2F-9003-3A72BB15B736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3968A283-5E30-4B2F-9003-3A72BB15B736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {08CB1B21-AA3D-4CD1-98FA-5AC47403AB1B}
+		SolutionGuid = {0C68F2B0-DDB5-4D67-83A9-FF8132D9A5DA}
 	EndGlobalSection
 EndGlobal
